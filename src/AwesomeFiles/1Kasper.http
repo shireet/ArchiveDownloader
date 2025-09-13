@@ -1,0 +1,6 @@
+@_1Kasper_HostAddress = http://localhost:5045
+
+GET {{_1Kasper_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

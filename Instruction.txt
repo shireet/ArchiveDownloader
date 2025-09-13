@@ -1,0 +1,36 @@
+Для запуска бэка зайдите в папку "Kaspersky2" и запустите скрипт "run.sh":
+chmod +x run.sh
+./run.sh
+
+Все файлы на беке храняться в DAL.Data
+Все архивы, скачанные клиентом, попадают в Download
+
+
+Для работы с клиентом зайдите в папку "ApiClient": cd ApiClient
+
+Имеются следующие команды:
+
+1. Получение названий всех файлов:
+dotnet run -- list
+
+2. Запуск процесса архивирования:
+dotnet run -- create-archive --files file1.txt file2.txt ...
+
+3. Получение статуса процесса архивации:
+dotnet run -- status --id {id}
+
+4. Скачиание архива:
+dotnet run -- download --id {id}
+
+5. Моментальная архивация файлов:
+dotnet run -- auto-archive --files file1.txt file2.txt ...
+
+
+Также можно после запуска сервиса потыкать ручки через Swagger(http://localhost:5045/swagger/index.html)
+
+По умолчания в сервисе хранятся следующие файлы: file1.txt file2.txt
+
+PS: В задании 2 от 2 группы неправильно написан "run.sh" там должен быть "cd TechTask.StudentReportService" вместо полной пути
+
+PSS: Была изменена 1 строчка с предыдущей версии. Поменял "ErrorMessage" на "TaskErrorMessage". Предыдущая версия не забилдится.
+Для уточнения деталей напишите в tg: shireet3
