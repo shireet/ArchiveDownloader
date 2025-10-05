@@ -1,10 +1,10 @@
-using AwesomeFiles.BLL.Services.GetArchiveTaskStatus;
-using AwesomeFiles.DAL.Interfaces;
+using AwesomeFiles.Application.Services.GetArchiveTaskStatus;
+using AwesomeFiles.Infrastructure.Repositories.Interfaces;
 using Moq;
 
 namespace AwesomeFiles.UnitTests.Stubs;
 
-public class GetArchiveTaskStatusHandlerStub : GetArchiveTaskStatusHandle
+public class GetArchiveTaskStatusHandlerStub : GetArchiveTaskStatusHandler
 {
     public Mock<IArchiveTaskStatusRepository> ArchiveTaskStatusRepositoryMock;
 

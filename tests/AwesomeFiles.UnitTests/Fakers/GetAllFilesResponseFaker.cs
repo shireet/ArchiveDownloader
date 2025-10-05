@@ -1,5 +1,5 @@
 using AutoBogus;
-using AwesomeFiles.BLL.Services.GetAllFiles;
+using AwesomeFiles.Application.Services.GetAllFiles;
 
 namespace AwesomeFiles.UnitTests.Fakers;
 

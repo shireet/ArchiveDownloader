@@ -1,4 +1,4 @@
-using AwesomeFiles.DAL.Interfaces;
+using AwesomeFiles.Infrastructure.Repositories.Interfaces;
 using Moq;
 
 namespace AwesomeFiles.UnitTests.Extensions;

@@ -1,5 +1,5 @@
-using AwesomeFiles.BLL.Services.StartArchive;
-using AwesomeFiles.DAL.Interfaces;
+using AwesomeFiles.Application.Services.StartArchive;
+using AwesomeFiles.Infrastructure.Repositories.Interfaces;
 using Moq;
 
 namespace AwesomeFiles.UnitTests.Stubs;

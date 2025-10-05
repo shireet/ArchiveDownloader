@@ -1,5 +1,5 @@
-using AwesomeFiles.DAL.Entities;
-using AwesomeFiles.DAL.Interfaces;
+using AwesomeFiles.Infrastructure.Repositories.Entities;
+using AwesomeFiles.Infrastructure.Repositories.Interfaces;
 using Moq;
 
 

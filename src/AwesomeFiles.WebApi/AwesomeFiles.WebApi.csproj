@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <PackageId>AwesomeFiles.WebApi</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation" />
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions"/>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AwesomeFiles.Domain\AwesomeFiles.Domain.csproj" />
+        <ProjectReference Include="..\AwesomeFiles.Presentation\AwesomeFiles.Presentation.csproj" />
+        <ProjectReference Include="..\AwesomeFiles.Infrastructure\AwesomeFiles.Infrastructure.csproj" />
+        
+    </ItemGroup>
+</Project>

@@ -1,6 +1,6 @@
-using AwesomeFiles.BLL.Exceptions;
-using AwesomeFiles.BLL.Extensions;
-using AwesomeFiles.DAL.Entities;
+using AwesomeFiles.Application.Extensions;
+using AwesomeFiles.Domain.Exceptions;
+using AwesomeFiles.Infrastructure.Repositories.Entities;
 using AwesomeFiles.UnitTests.Extensions;
 using AwesomeFiles.UnitTests.Fakers;
 using AwesomeFiles.UnitTests.Stubs;

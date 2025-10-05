@@ -1,5 +1,5 @@
 using AutoBogus;
-using AwesomeFiles.BLL.Services.GetArchiveTaskStatus;
+using AwesomeFiles.Application.Services.GetArchiveTaskStatus;
 
 namespace AwesomeFiles.UnitTests.Fakers;
 

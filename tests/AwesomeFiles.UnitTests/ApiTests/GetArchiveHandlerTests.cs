@@ -1,5 +1,4 @@
-using AwesomeFiles.BLL.Exceptions;
-using AwesomeFiles.BLL.Services.GetArchive;
+using AwesomeFiles.Domain.Exceptions;
 using AwesomeFiles.UnitTests.Extensions;
 using AwesomeFiles.UnitTests.Fakers;
 using AwesomeFiles.UnitTests.Stubs;
